@@ -1,0 +1,138 @@
+2021-09-09 15:48:23,387 INFO    MainThread:333172 [internal.py:wandb_internal():89] W&B internal server running at pid: 333172, started at: 2021-09-09 15:48:23.387738
+2021-09-09 15:48:23,389 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: check_version
+2021-09-09 15:48:23,389 INFO    WriterThread:333172 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/run-11ryy6tx.wandb
+2021-09-09 15:48:23,391 DEBUG   SenderThread:333172 [sender.py:send():182] send: header
+2021-09-09 15:48:23,391 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: check_version
+2021-09-09 15:48:23,636 DEBUG   SenderThread:333172 [sender.py:send():182] send: run
+2021-09-09 15:48:23,638 DEBUG   SenderThread:333172 [git.py:repo():33] git repository is invalid
+2021-09-09 15:48:24,205 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: run_start
+2021-09-09 15:48:24,206 INFO    SenderThread:333172 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files
+2021-09-09 15:48:24,206 INFO    SenderThread:333172 [sender.py:_start_run_threads():743] run started: 11ryy6tx with start time 1631182702
+2021-09-09 15:48:24,206 DEBUG   SenderThread:333172 [sender.py:send():182] send: summary
+2021-09-09 15:48:24,206 INFO    SenderThread:333172 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 15:48:24,208 DEBUG   HandlerThread:333172 [meta.py:__init__():40] meta init
+2021-09-09 15:48:24,208 DEBUG   HandlerThread:333172 [meta.py:__init__():54] meta init done
+2021-09-09 15:48:24,208 DEBUG   HandlerThread:333172 [meta.py:probe():211] probe
+2021-09-09 15:48:24,214 DEBUG   HandlerThread:333172 [git.py:repo():33] git repository is invalid
+2021-09-09 15:48:24,214 DEBUG   HandlerThread:333172 [meta.py:_save_code():90] save code
+2021-09-09 15:48:24,214 WARNING HandlerThread:333172 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-09 15:48:24,214 DEBUG   HandlerThread:333172 [meta.py:_save_pip():58] save pip
+2021-09-09 15:48:24,215 DEBUG   HandlerThread:333172 [meta.py:_save_pip():72] save pip done
+2021-09-09 15:48:24,215 DEBUG   HandlerThread:333172 [meta.py:_save_conda():79] save conda
+2021-09-09 15:48:25,209 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/wandb-summary.json
+2021-09-09 15:48:25,209 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/conda-environment.yaml
+2021-09-09 15:48:25,209 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/requirements.txt
+2021-09-09 15:48:30,208 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/output.log
+2021-09-09 15:48:30,968 DEBUG   HandlerThread:333172 [meta.py:_save_conda():87] save conda done
+2021-09-09 15:48:30,968 DEBUG   HandlerThread:333172 [meta.py:probe():249] probe done
+2021-09-09 15:48:30,990 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 15:48:30,990 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 15:48:31,208 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/conda-environment.yaml
+2021-09-09 15:48:31,209 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/wandb-metadata.json
+2021-09-09 15:48:31,860 DEBUG   SenderThread:333172 [sender.py:send():182] send: files
+2021-09-09 15:48:31,860 INFO    SenderThread:333172 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-09 15:48:32,209 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/output.log
+2021-09-09 15:48:38,762 INFO    Thread-11 :333172 [upload_job.py:push():137] Uploaded file /tmp/tmpwlnc4vsmwandb/16wx3sc7-wandb-metadata.json
+2021-09-09 15:48:46,861 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 15:48:46,861 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 15:48:52,450 DEBUG   SenderThread:333172 [sender.py:send():182] send: stats
+2021-09-09 15:49:02,199 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-09 15:49:02,199 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: stop_status
+2021-09-09 15:49:04,071 WARNING MainThread:333172 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-09-09 15:49:04,751 DEBUG   SenderThread:333172 [sender.py:send():182] send: telemetry
+2021-09-09 15:49:04,751 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 15:49:04,751 DEBUG   SenderThread:333172 [sender.py:send():182] send: exit
+2021-09-09 15:49:04,751 INFO    SenderThread:333172 [sender.py:send_exit():291] handling exit code: 0
+2021-09-09 15:49:04,752 INFO    SenderThread:333172 [sender.py:send_exit():293] handling runtime: 40
+2021-09-09 15:49:04,756 INFO    SenderThread:333172 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 15:49:04,756 INFO    SenderThread:333172 [sender.py:send_exit():303] send defer
+2021-09-09 15:49:04,756 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 15:49:04,757 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:04,757 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-09 15:49:04,757 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:04,757 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-09 15:49:04,757 INFO    SenderThread:333172 [sender.py:transition_state():316] send defer: 1
+2021-09-09 15:49:04,757 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:04,757 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-09 15:49:04,857 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:04,857 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-09 15:49:04,857 INFO    SenderThread:333172 [sender.py:transition_state():316] send defer: 2
+2021-09-09 15:49:04,858 DEBUG   SenderThread:333172 [sender.py:send():182] send: stats
+2021-09-09 15:49:04,858 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:04,858 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-09 15:49:04,858 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:04,858 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-09 15:49:04,858 INFO    SenderThread:333172 [sender.py:transition_state():316] send defer: 3
+2021-09-09 15:49:04,858 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:04,858 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-09 15:49:04,859 DEBUG   SenderThread:333172 [sender.py:send():182] send: summary
+2021-09-09 15:49:04,859 INFO    SenderThread:333172 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-09 15:49:04,859 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:04,859 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-09 15:49:04,859 INFO    SenderThread:333172 [sender.py:transition_state():316] send defer: 4
+2021-09-09 15:49:04,859 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:04,859 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-09 15:49:04,859 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:04,859 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-09 15:49:04,865 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 15:49:05,220 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/wandb-summary.json
+2021-09-09 15:49:05,220 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/output.log
+2021-09-09 15:49:05,515 INFO    SenderThread:333172 [sender.py:transition_state():316] send defer: 5
+2021-09-09 15:49:05,515 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 15:49:05,516 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:05,516 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-09 15:49:05,516 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:05,516 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-09 15:49:05,517 INFO    SenderThread:333172 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-09 15:49:05,617 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 15:49:06,220 INFO    Thread-8  :333172 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/config.yaml
+2021-09-09 15:49:06,221 INFO    SenderThread:333172 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files
+2021-09-09 15:49:06,221 INFO    SenderThread:333172 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/wandb-summary.json wandb-summary.json
+2021-09-09 15:49:06,221 INFO    SenderThread:333172 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/config.yaml config.yaml
+2021-09-09 15:49:06,226 INFO    SenderThread:333172 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/wandb-metadata.json wandb-metadata.json
+2021-09-09 15:49:06,226 INFO    SenderThread:333172 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/output.log output.log
+2021-09-09 15:49:06,232 INFO    SenderThread:333172 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/requirements.txt requirements.txt
+2021-09-09 15:49:06,233 INFO    SenderThread:333172 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/conda-environment.yaml conda-environment.yaml
+2021-09-09 15:49:06,244 INFO    SenderThread:333172 [sender.py:transition_state():316] send defer: 6
+2021-09-09 15:49:06,244 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 15:49:06,245 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:06,245 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-09 15:49:06,250 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:06,250 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-09 15:49:06,250 INFO    SenderThread:333172 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-09 15:49:06,347 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 15:49:06,347 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 15:49:06,450 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 15:49:06,450 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 15:49:06,551 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-09 15:49:06,552 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: poll_exit
+2021-09-09 15:49:07,205 INFO    Thread-12 :333172 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/wandb-summary.json
+2021-09-09 15:49:07,211 INFO    Thread-14 :333172 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/output.log
+2021-09-09 15:49:07,216 INFO    Thread-15 :333172 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/requirements.txt
+2021-09-09 15:49:07,511 INFO    Thread-16 :333172 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/conda-environment.yaml
+2021-09-09 15:49:07,540 INFO    Thread-13 :333172 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/files/config.yaml
+2021-09-09 15:49:07,741 INFO    Thread-7  :333172 [sender.py:transition_state():316] send defer: 7
+2021-09-09 15:49:07,741 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:07,741 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-09 15:49:07,742 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:07,742 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-09 15:49:08,039 INFO    SenderThread:333172 [sender.py:transition_state():316] send defer: 8
+2021-09-09 15:49:08,040 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:08,040 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-09 15:49:08,040 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:08,040 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-09 15:49:08,040 INFO    SenderThread:333172 [sender.py:transition_state():316] send defer: 9
+2021-09-09 15:49:08,040 DEBUG   SenderThread:333172 [sender.py:send():182] send: final
+2021-09-09 15:49:08,040 DEBUG   SenderThread:333172 [sender.py:send():182] send: footer
+2021-09-09 15:49:08,041 DEBUG   HandlerThread:333172 [handler.py:handle_request():126] handle_request: defer
+2021-09-09 15:49:08,041 INFO    HandlerThread:333172 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-09 15:49:08,041 DEBUG   SenderThread:333172 [sender.py:send_request():196] send_request: defer
+2021-09-09 15:49:08,041 INFO    SenderThread:333172 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-09 15:49:13,079 WARNING MainThread:333172 [internal.py:is_dead():365] Internal process exiting, parent pid 321701 disappeared
+2021-09-09 15:49:13,079 ERROR   MainThread:333172 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-09 15:49:14,041 INFO    WriterThread:333172 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Dog-or-Cat-or-Panda/wandb/run-20210909_154814-11ryy6tx/run-11ryy6tx.wandb
+2021-09-09 15:49:14,042 INFO    SenderThread:333172 [sender.py:finish():979] shutting down sender
+2021-09-09 15:49:14,042 INFO    SenderThread:333172 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-09 15:49:14,042 INFO    SenderThread:333172 [file_pusher.py:join():182] waiting for file pusher
+2021-09-09 15:49:14,044 INFO    HandlerThread:333172 [handler.py:finish():683] shutting down handler
+2021-09-09 15:49:14,045 INFO    MainThread:333172 [internal.py:handle_exit():76] Internal process exited
